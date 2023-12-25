@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Web Search Preview",
+  "author": "Philippe Fanaro",
+  "version": "0.0.1",
+  "description": "Web Search Preview",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.google.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}

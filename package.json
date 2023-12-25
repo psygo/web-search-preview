@@ -1,0 +1,28 @@
+{
+    "name": "web_search_preview",
+    "version": "0.0.2",
+    "description": "Web Search Preview Browser Extension",
+    "license": "ISC",
+    "author": "Philippe Fanaro",
+    "contributors": [
+        {
+            "name": "Philippe Fanaro",
+            "email": "philippefanaro@gmail.com"
+        }
+    ],
+    "keywords": [
+        "Google",
+        "Web Search"
+    ],
+    "main": "content.js",
+    "type": "module",
+    "scripts": {
+        "build": "bash ./build.sh",
+        "release": "bash ./release.sh"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.4",
+        "vite": "^4.3.0",
+        "vite-plugin-dts": "^2.3.0"
+    }
+}
