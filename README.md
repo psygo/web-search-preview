@@ -15,3 +15,7 @@ The fact that most websites block cross-site requests pretty much makes this so 
 - [Search Result Previews](https://chromewebstore.google.com/detail/search-result-previews/cedcejfiniojnlhlfhcppenochinijfo)
   - The preview is done through an apparently preprocessed preview?
 - [Search & Link Preview](https://chromewebstore.google.com/detail/search-link-preview/mmmfofondapflhgbdidadejnechhjocm)
+
+## References
+
+- [How to Bundle a Chrome Extension with ESBuild](https://github.com/essentialkit/link-previews/blob/main/tools/esbuild.js)
